@@ -1,0 +1,242 @@
+:root {
+    --secondary-color:#666;
+    --introduction-span-color:#FF8A56;
+}
+
+
+* {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Mobile First */
+header {
+    display: flex;
+    /* TODO display: flex; sətir boyunca bizim elementleri düzür */
+
+    justify-content: space-between;
+    /* TODO  justify-content: space-between; img-nav arasına boşluq qoyur */
+
+    align-items: center;
+    /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
+
+
+}
+
+
+header nav {
+    display: none;
+}
+
+header nav a {
+    color:#000;
+    margin-right: 10px;
+}
+
+/*  TODO 576-dan kicik olanda ekstra kicik cihazlar col-12 */
+/*  TODO 576-768-dan kicik olanda   */
+/*  TODO 768-991-dan kicik oplanset col-md */
+/*  TODO 991-1200px noutbuklar  */ 
+/* TODO 1200-1400px pc */
+
+/* TODO Smart tv 1400px-uzu yuxari */
+
+
+
+/* INTRODUCTION START */
+
+.introduction .intro-left-side h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.introduction .intro-left-side h1 span {
+    color: var(--introduction-span-color);
+}
+
+.introduction .intro-left-side p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.introduction .intro-left-side .book {
+    background: #222;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+
+ 
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.logoipsumlar{
+    padding: 100px 0;
+   
+}
+
+/* INTRODUCTION end */
+
+@media(max-width:575px) {
+    .parentdiv {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:576px) {
+.parentdiv {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:768px) {
+    .parentdiv {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(min-width:992px) {
+    .parentdiv {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .introduction {
+        display: flex;
+        
+    }
+
+    .introduction .intro-left-side h1 {
+        font-size: 72px;
+
+       
+    }
+
+    .introduction .intro-left-side {
+        padding: 92px 0;
+    }
+
+    .introduction .intro-right-side {
+        padding-top: 72px;
+    }
+}
+
+@media(min-width:1200px) {
+    .parentdiv {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px) {
+header nav {
+    display: block;
+}
+
+.fa-bars {
+display: none;
+}
+}
+
+@media(max-width:575px) {
+    .parentd {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:576px) {
+.parentd {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:768px) {
+    .parentd {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(min-width:992px) {
+    .parentd {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .introductiona {
+        display: flex;    
+    }
+
+    .introductiona .intra-left-sida .h9 {
+        font-size: 72px;
+        color: #FFFF;  
+    }
+
+    .introductiona .intra-left-sida {
+        padding: 92px 0;
+    }
+
+    .introductiona .intra-right-sida {
+        padding-top: 72px;
+    }
+}
+
+@media(min-width:1200px) {
+    .parentd {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px) {
+header nav {
+    display: block;
+}
+}
+
+
+
