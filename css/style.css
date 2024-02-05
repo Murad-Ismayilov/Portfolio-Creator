@@ -212,6 +212,19 @@ a:hover{
 
 }
 
+.services-cards .card ul li{
+    color: #000;
+    font-size: 16px;
+
+ font-weight: 1000;
+
+
+
+    
+
+
+}
+
 
 
 @media(max-width:575px) {
