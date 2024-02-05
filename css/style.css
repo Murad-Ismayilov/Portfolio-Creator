@@ -114,6 +114,43 @@ margin-right: 10px;
    
 }
 
+
+.services-cards{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
+    gap: 30px;
+ 
+}
+
+.services-cards .card:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+}
+
+.services h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF8A56;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.services ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.services-cards .card{
+    transition: all .1s ease-in;
+    padding: 10px;
+    /* -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+-moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+box-shadow: 7px 9px 20px 6px rgba(0,0,0,1); */
+}
+
 /* INTRODUCTION end */
 
 @media(max-width:575px) {
