@@ -109,10 +109,64 @@ margin-right: 10px;
     font-weight: 100;
 }
 
+
+
+h5:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+p:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+li:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h5{
+    color: #000;
+    font-size: 20px;
+   
+}
+
+ul:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
 .logoipsumlar{
     padding: 100px 0;
    
 }
+
 
 
 .services-cards{
@@ -127,6 +181,7 @@ margin-right: 10px;
     -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
     -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
     box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    border-radius: 20px;
 }
 
 .services h6{
@@ -137,6 +192,13 @@ margin-right: 10px;
     letter-spacing: 2px;
 }
 
+.services h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 54px;
+    letter-spacing: 1px;
+}
+
 .services ul{
     list-style-type: square;
     list-style-position: inside;
@@ -145,13 +207,12 @@ margin-right: 10px;
 
 .services-cards .card{
     transition: all .1s ease-in;
-    padding: 10px;
-    /* -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
--moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1); */
+    padding: 15px;
+    margin-bottom: 100px;
+
 }
 
-/* INTRODUCTION end */
+
 
 @media(max-width:575px) {
     .parentdiv {
