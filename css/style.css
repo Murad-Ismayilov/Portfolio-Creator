@@ -178,9 +178,9 @@ a:hover{
 }
 
 .services-cards .card:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+-moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
     border-radius: 20px;
 }
 
@@ -217,11 +217,6 @@ a:hover{
     font-size: 16px;
 
  font-weight: 1000;
-
-
-
-    
-
 
 }
 
