@@ -6,6 +6,7 @@
 
 * {
     text-decoration: none;
+    /* outline: 1px solid rgb(255, 0, 0); */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
@@ -48,6 +49,11 @@ header nav a {
 
 /* TODO Smart tv 1400px-uzu yuxari */
 
+.intro img{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 0 0 70px;
+}
 
 
 /* INTRODUCTION START */
@@ -222,9 +228,7 @@ h4{
     margin: 33px 0 0 0;
 }
 
-.h6{
-    color: palevioletred;
-}
+
 
 article{
     color: #ffffff;
@@ -236,6 +240,27 @@ article{
     margin: 10px 0 0 100px;
 }
 
+
+.left-side h6{
+    color: #FF5E69;
+    font-size: 20px;
+    margin: 100px 0 -58px 40px;
+}
+
+.left-side h1{
+    color: #000000;
+    font-size: 50px;
+    margin: 90px 0 0 40px;
+}
+
+
+.intro-right-side article{
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    text-align: right;
+    margin: -64px 26px 0 0;
+}
 
 @media(max-width:575px) {
     .parentdiv {
