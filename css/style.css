@@ -115,12 +115,13 @@ h5{
    
 }
 
+
 .services-cards{
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
-    gap: 0;
-    margin: 0 38px 54px 38px;
+    gap: 10px;
+    margin: 0 48px 64px 38px;
  
 }
 
@@ -194,6 +195,7 @@ h3{
 .i{
   
     margin-left: 1161.5px;
+    
 }
 
 .fa-chevron-left{
@@ -208,70 +210,52 @@ h3{
     margin: 30px 0 0 -5px;
 }
 
+h4{
+    color: #ffffff;
+    font-size: 48px;
+}
+
+
+.h4{
+    color: #ffffff;
+    font-size: 28px;
+    margin: 33px 0 0 0;
+}
+
+.h6{
+    color: palevioletred;
+}
+
+article{
+    color: #ffffff;
+    opacity: .7;
+    margin: 0 0 0 0;
+}
+
+.div-right{
+    margin: 10px 0 0 100px;
+}
+
+
 @media(max-width:575px) {
     .parentdiv {
         max-width: 100%;
     }
-    .i{
-  
-        margin-left: 1161.5px;
-    }
-    
-    .fa-chevron-left{
-        background-color: #fff;
-        padding: 20px 20px;
-        margin: 10px 0 0 -100px;
-    }
-    
-    .fa-chevron-right{
-        background-color: #ffffff;
-        padding: 20px 20px;
-        margin: 30px 0 0 -5px;
-    }
+ 
 }
 
 @media(min-width:576px) {
     .parentdiv {
         max-width: 100%;
     }
-    .i{
-  
-        margin-left: 1161.5px;
-    }
-    
-    .fa-chevron-left{
-        background-color: #fff;
-        padding: 20px 20px;
-        margin: 10px 0 0 -100px;
-    }
-    
-    .fa-chevron-right{
-        background-color: #ffffff;
-        padding: 20px 20px;
-        margin: 30px 0 0 -5px;
-    }
+   
 }
 
 @media(min-width:768px) {
     .parentdiv {
         max-width: 100%;
     }
-    .i{
-  
-        margin-left: 1161.5px;
-    }
-    
-    .fa-chevron-left{
-        background-color: #fff;
-        padding: 20px 20px;
-        margin: 10px 0 0 -100px;
-    }
-    
-    .fa-chevron-right{
-        background-color: #ffffff;
-        padding: 20px 20px;
-        margin: 30px 0 0 -5px;
-    }
+   
 
     header nav {
         display: block;
@@ -317,22 +301,6 @@ h3{
         background-color: #000000;
     }
 
-    .i{
-  
-    margin-left: 1161.5px;
-}
-
-.fa-chevron-left{
-    background-color: #fff;
-    padding: 20px 20px;
-    margin: 10px 0 0 -100px;
-}
-
-.fa-chevron-right{
-    background-color: #ffffff;
-    padding: 20px 20px;
-    margin: 30px 0 0 -5px;
-}
 
     .introduction {
         display: flex;
@@ -367,9 +335,10 @@ h3{
     }
 
     .intro-section .div-left h2{
-        font-size: 40px;
+        font-size: 30px;
         color: #FF8A56;
-        margin: 0 0;
+      
+        margin: 79px 0 -28px 0;
     }
 
     .intro-section .div-left .h2{
@@ -379,7 +348,8 @@ h3{
     }
 
     .intro-section .div-left{
-        padding: 121px 0 269px 0;
+        padding: 0 0 269px 0;
+        margin: -46px 51px;
     }
 
     .intro-section .div-right{
@@ -400,22 +370,6 @@ h3{
         max-width: 100%;
     }
 
-    .i{
-  
-        margin-left: 1161.5px;
-    }
-    
-    .fa-chevron-left{
-        background-color: #fff;
-        padding: 20px 20px;
-        margin: 10px 0 0 -100px;
-    }
-    
-    .fa-chevron-right{
-        background-color: #ffffff;
-        padding: 20px 20px;
-        margin: 30px 0 0 -5px;
-    }
 }
 
 /* TODO */
