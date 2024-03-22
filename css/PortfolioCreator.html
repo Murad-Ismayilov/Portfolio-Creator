@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./style.css " >
 
     <title > Portfolio Creator </title>
@@ -36,29 +38,45 @@
     <i class="fa-solid fa-bars"></i>
   </header>
 
-  <section class="introduction">
-   
-    <div class="intro-left-side">
-  
 
+  <section class="swiper mySwiper introduction">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide intro-left-side">
       <h1> <span>I design products </span>
         that delight and 
         inspire people
       </h1>
-
       <article>Hi! I’m <strong>Murad</strong> , a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.</article>
   
      <div class="book-a-call">
       <a href="" class="book">Book a call</a>
       <a href="">Download CV <img src="./image/sax ox.svg.svg" alt=""></a>
      </div>
-   
     </div>
 
-    <div class="intro-right-side">
+      <div class="swiper-slide intro-right-side">
+        <img src="./image/profiler/profil.svg" alt="">
+      </div>
+      
+      <div class="swiper-slide"></div>  
+      
+        <img src="./image/profiler/profil2.svg" alt="">
+      </div>
 
-      <img src="./image/profiler/profil.svg" alt="">
+      <div class="swiper-slide intro">
+        <h1>Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.
+      </h1>
+  
+      </div>
+
+      
+      
+
+      </div>
+
     </div>
+    <div class="swiper-pagination"></div>
   </section>
 
 
@@ -66,273 +84,34 @@
   <section class="logoipsumlar">
 
     <h6>Trusted by</h6>
-<!-- TODO linkler star -->
-  <div class="div">
 
-    <img src="./image/logoipsumlar/logoipsum.svg" alt="">
-    <img src="./image/logoipsumlar/logoipsum2.svg" alt="">
-    <img src="./image/logoipsumlar/logoipsum3.svg" alt="">
-    <img src="./image/logoipsumlar/logoipsum4.svg" alt="">
-
-  </div>
-<!-- TODO linkler end -->
-  </section>
-
-
-  <section class="services">
-    <h6>Services</h6>
-    <h1>Design that solves problems, <br>one product at a time.</h1>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./image/logoipsumlar/logo1.svg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./image/logoipsumlar/logo2.svg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./image/logoipsumlar/logo3.svg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./image/logoipsumlar/logo4.svg" />
+        </div>
     
-    <div class="services-cards">
-
-      <div class="card">
-        <img src="./image/kart/services.svg" alt="">
-        <h5>What I can do for you</h5>
-        <p>Faster, better products that your users love. Here's all the services I provide:</p>
-        <ul>
-          <li>Design Strategy</li>
-          <li>Web and Mobile App Design</li>
-          <li>Front-end Development</li>
-        </ul>
       </div>
-
-      <!-- TODO 2 kart-->
-
-      <div class="card">
-        <img src="./image/kart/services2.svg" alt="">
-        <h5>What I can do for you</h5>
-        <p>Every designer needs the right <br>tools to do the perfect job. <br> Thankfully, I'm multilingual.</p>
-        <ul>
-          <li>Sketch</li>
-          <li>Webflow</li>
-          <li>Figma</li>
-        </ul>
-      </div>
-
-      <!-- TODO 3 kart -->
-
-      <div class="card">
-        <img src="./image/kart/services3.svg" alt="">
-        <h5>What I can do for you</h5>
-        <p>Faster, better products that your users love. Here's all the services I provide:</p>
-        <ul>
-          <li>Design Strategy</li>
-          <li>Web and Mobile App Design</li>
-          <li>Front-end Development</li>
-        </ul>
-      </div>
-
-
-
+      <div class="swiper-pagination"></div>
     </div>
-
-
   </section>
 
 
+ 
 
 </div>
 
-
-
-<section class="services">
-
-  <div class="services-card">
-
-    <div class="cards">
-
-      <img src="./image/profiler/profil2.svg" alt="">
-     
-    </div>
-
-    <!-- TODO 2 kart-->
-
-    <div class="cards">
-      <img src="./image/profiler/profil3.svg" alt="">
-    </div>
-
-    <!-- TODO 3 kart -->
-
-    <div class="cards">
-      <img src="./image/profiler/profil4.svg" alt="">
-    
-    </div>
-
-  </div>
-
-
-</section>
-
-
-<!-- TODO---------------------------------------------------------------->
-
-
-<div class="entrance">
-
-  <section class="services">
-
-    <div class="services-cards">
-  
-      <div class="cards">
-        <h3>Branding</h3>
-        <h1 class="h5"> Soulful Rebrand</h1>
-        <p>View Project <i class="fa-solid fa-arrow-right"></i></p> 
-      </div>
-  
-      <!-- TODO 2 kart-->
-  
-      <div class="cards">
-        <h3>Product Design</h3>
-        <h1 class="h5"> Datadash Product design</h1>
-        <p>View Project <i class="fa-solid fa-arrow-right"></i></p>        
-      </div>
-  
-      <!-- TODO 3 kart -->
-  
-      <div class="cards">
-        <h3>Web Design</h3>
-        <h1 class="h5"> Maize Website Design</h1>
-        <p>View Project <i class="fa-solid fa-arrow-right"></i></p>
-       
-      </div>
-
-      
-
-    </div>
-  
-  <div class="i">
-
-         <i class="fa-solid fa-chevron-left" style="color: #000000;"></i>
-         <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
-      </div>
-    
-  </section>
-  
-  
-<div>
-
-  <section class="intro-section">
-   
-    <div class="div-left">
-  
-    <h2> Blogs </h2>
-
-    <h4>Latest Blogs</h4>
-
-    <p style="color: #fff;">View Project <i class="fa-solid fa-arrow-right"></i></p>
-    
-  </div>
-  
-    <div class="div-right">
-
-      <article> April 16, 2021 ,6 mins </article>
-
-      <h1 class="h4"> Design tips for designers, that cover everything you need </h1>
-     
-     <br>
-     
-      <p style="color: #fff;"> Read the article <i class="fa-solid fa-arrow-right"></i></p>
-      
-      <br>
-      <br>
-
-      <article> April 16, 2021 ,5 mins </article>
-
-      
-      <h1 class="h4"> How to build rapport with your web design clients </h1>
-     
-      <br>
-     
-      <p style="color: #fff;"> Read the article <i class="fa-solid fa-arrow-right"></i></p>
-      
-      <br>
-      <br>
-
-      <article> April 16, 2021 ,5 mins </article>
-
-      <h1 class="h4"> Top 6 free website mockup tools 2021 </h1>
-     
-      <br>
-      
-      <p style="color: #fff;"> Read the article <i class="fa-solid fa-arrow-right"></i></p>
-      
-      <br>
-      <br>
-
-      <article> April 16, 2021 ,7 mins </article>
-
-      <h1 class="h4"> Logo design trends to avoid in 2021 </h1>
-     
-      <br>
-      
-      <p style="color: #fff;"> Read the article <i class="fa-solid fa-arrow-right"></i></p>
-      
-      <br>
-      <br>
-
-      <article> April 16, 2021 ,7 mins </article>
-
-      <h1 class="h4"> 22 best UI design tools </h1>
-     
-      <br>
-      
-      <p style="color: #fff;"> Read the article <i class="fa-solid fa-arrow-right"></i></p>
-      
-      <br>
-      <br>
-      
-    </div>
-
-
-  </section>
-  
-</div>
-  
-
-
-
-</div>
-
-<!-- TODO---------------------------------------------------------------->
-
-
-<div class="parentdiv">
-
-
-  <section class="intro">
-   
-    <div class="left-side">
-  
-      <h6>Product Designer</h6>
-      <h1>That's me!</h1>
-   
-    </div>
-
-    <div class="intro-right-side">
-
-    <article>Over the past 12 years, I've worked with a  diverse range of <br> clients, from startups to  Fortune 500 companies. I love crafting <br> interfaces that delight users and help businesses grow.</article>
-
-    <div >
-
-    </div>
-    <img src="./image/shekiller/shekil.svg" alt="">
-    
-    
-    </div>
-
-  </section>
-
-
-
-
-
-  
-
-
-
-</div>
-
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
 
   </body>
 

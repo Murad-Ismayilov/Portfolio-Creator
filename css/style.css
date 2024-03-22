@@ -56,6 +56,11 @@ header nav a {
 }
 
 
+
+.side img{
+    width: 458px;
+    height: 648px;
+}
 /* INTRODUCTION START */
 
 .introduction .intro-left-side h1 {
@@ -90,19 +95,8 @@ align-items: center;
 margin-right: 10px;
 }
 
-.div{
-    justify-content: space-between;
-    display: flex;
-    margin: 0 44px;
-}
 
-.h1{
-   margin-left: 500px;
-   margin-right: 400px;
-   font-size: 18px;
-   color: #000;
- 
-}
+
 
 .logoipsumlar h6{
     text-align: center;
@@ -110,125 +104,16 @@ margin-right: 10px;
     font-weight: 100;
 }
 
-h5{
-    color: #000;
-    font-size: 20px;
-   
-}
+
 
 .logoipsumlar{
     padding: 100px 0;
    
 }
 
-
-.services-cards{
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
-    gap: 10px;
-    margin: 0 48px 64px 38px;
- 
+.logoipsumlar section{
+    padding:  0 0 0 50px;
 }
-
-.services-cards .card:hover{
-    -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
--moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-    border-radius: 20px;
-}
-
-.services h6{
-    text-align: center;
-    text-transform: uppercase;
-    color: #FF8A56;
-    font-size: 22px;
-    letter-spacing: 2px;
-}
-
-.services h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 54px;
-    letter-spacing: 1px;
-}
-
-.services ul{
-    list-style-type: square;
-    list-style-position: inside;
-    padding-left: 0;
-}
-
-.services-cards .card{
-    transition: all .1s ease-in;
-    padding: 15px;
-    margin-bottom: 100px;
-    margin: 0 45px;
-
-}
-
-.services-cards .card ul li{
-    color: #000;
-    font-size: 16px;
-    font-weight: 1000;
-
-}
-
-
-.services-card{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(306px, 1fr));
-    gap: 90px;
-    margin: 0 38px 0 38px;
-}
-
-h3{
-    color: blue;
-}
-
-.services .h5{
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 1px;
-    color: #000000;
-}
-
-.cards{
-    background-color: #fff;
-}
-
-.i{
-  
-    margin-left: 1161.5px;
-    
-}
-
-.fa-chevron-left{
-    background-color: #fff;
-    padding: 20px 20px;
-    margin: 10px 0 0 -100px;
-}
-
-.fa-chevron-right{
-    background-color: #ffffff;
-    padding: 20px 20px;
-    margin: 30px 0 0 -5px;
-}
-
-h4{
-    color: #ffffff;
-    font-size: 48px;
-}
-
-
-.h4{
-    color: #ffffff;
-    font-size: 28px;
-    margin: 33px 0 0 0;
-}
-
-
 
 article{
     color: #ffffff;
@@ -236,22 +121,6 @@ article{
     margin: 0 0 0 0;
 }
 
-.div-right{
-    margin: 10px 0 0 100px;
-}
-
-
-.left-side h6{
-    color: #FF5E69;
-    font-size: 20px;
-    margin: 100px 0 -58px 40px;
-}
-
-.left-side h1{
-    color: #000000;
-    font-size: 50px;
-    margin: 90px 0 0 40px;
-}
 
 
 .intro-right-side article{
@@ -262,19 +131,9 @@ article{
     margin: -64px 26px 0 0;
 }
 
-@media(max-width:575px) {
-    .parentdiv {
-        max-width: 100%;
-    }
- 
-}
 
-@media(min-width:576px) {
-    .parentdiv {
-        max-width: 100%;
-    }
-   
-}
+
+
 
 @media(min-width:768px) {
     .parentdiv {
@@ -321,10 +180,6 @@ article{
         max-width: 100%;
     }
 
-    .entrance{
-        max-width: 100%;
-        background-color: #000000;
-    }
 
 
     .introduction {
@@ -333,10 +188,21 @@ article{
     }
 
     .introduction .intro-left-side h1 {
-        font-size: 90px;
+        font-size: 78px;
 
        
     }
+
+    .intro h1{
+        font-size: 40px;
+        
+    }        
+    
+    .intro {
+        padding: 92px 0;
+    }        
+    
+    
 
     .introduction .intro-left-side {
         padding: 92px 0;
@@ -349,10 +215,11 @@ article{
     .introduction .intro-right-side img{
         width: 458px;
         height: 558px;
-        margin: -28px 8px;
+      
         
     }
 
+    
 
 
     .intro-section{
